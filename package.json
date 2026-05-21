@@ -1,0 +1,38 @@
+{
+  "name": "@wenrl2006/token-budget",
+  "version": "0.1.0",
+  "description": "Token Budget pattern for AI Agents \u2014 every Agent pre-checks budget before LLM calls, auto-downgrades when tight, and keeps accounting. First TypeScript implementation.",
+  "main": "dist/TokenBudget.js",
+  "types": "dist/TokenBudget.d.ts",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "npx tsx scripts/examples/basic-demo.ts",
+    "example": "npx tsx scripts/examples/basic-demo.ts"
+  },
+  "keywords": [
+    "token-budget",
+    "llm-budget",
+    "ai-agent",
+    "token-management",
+    "model-selection",
+    "cost-control",
+    "agent-budget"
+  ],
+  "author": {
+    "name": "RongYe",
+    "email": "rongye@tokenbudget.dev"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenrl2006/token-budget.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
+  }
+}
