@@ -1,6 +1,6 @@
-# Token Budget（词元预算）
+# Token Budget（词元预算 / Token Budget）
 
-> 首个 TypeScript 实现的 AI Agent 预算自治模式 —— 每次调 LLM 前先问预算，不够就自动降级。
+> 首个 TypeScript 实现的 AI Agent 预算自治（Token Budget）模式 —— 每次调 LLM 前先问预算，不够就自动降级。
 
 **Token Budget** 不是一个产品，也不是一个 APP。它是一个**设计模式**——像 MVC 一样，应该渗透到每一个 Agent 的血脉里。
 

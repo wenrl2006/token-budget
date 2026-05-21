@@ -1,6 +1,6 @@
-# TokenBudget
+# TokenBudget (Token Budget)
 
-> The first TypeScript implementation of Token Budget pattern — every AI Agent pre-checks budget before LLM calls.
+> The first TypeScript implementation of Token Budget (词元预算) pattern — every AI Agent pre-checks budget before LLM calls.
 
 [![npm version](https://img.shields.io/npm/v/@wenrl2006/token-budget)](https://www.npmjs.com/package/token-budget)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
